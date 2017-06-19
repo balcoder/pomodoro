@@ -1,0 +1,67 @@
+@import 'variables';
+@import 'utilities';
+
+body {
+  background-color: $color-laurel-green-base;
+  color: $color-white-text;
+}
+#title {
+  padding-top: 40px;
+}
+
+.container-fluid {
+      padding-top: 100px;
+      padding-bottom: 70px;
+  }
+#test {
+  margin: 0 auto;
+}
+#time-interval {
+  font-size: 2em;
+}
+
+#timer-setup-title {
+  font-size: 2em;
+}
+#top {
+  color: #0e3b43;
+  font-size: 3em;
+  font-weight: bold
+}
+.btn-interval {
+  height: 2.5em;
+  width: 2.5em;
+  font-size: 1.5em;
+}
+
+  .center-me {
+    margin: 0 auto;
+  }
+  .btn{
+    margin: 10px;
+  }
+.timer-setup {
+  position: relative;
+  border: 5px solid green;
+  margin-top: 5px;
+}
+.break {
+  position: relative;
+  border: 5px solid green;
+  margin-top: 5px;
+}
+
+.circle {
+	width: 200px;
+	height: 200px;
+  font-size: 2em;
+  line-height: 100px;
+  text-align: center;
+	background-color: $color-slimy-green;
+  border: 5px solid white;
+  box-shadow: 1px 1px 1px black;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	border-radius: 100px;
+
+}

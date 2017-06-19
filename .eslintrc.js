@@ -1,9 +1,12 @@
 module.exports = {
-    "extends": "standard",
+    "extends": "standar",
     "plugins": [
         "standard"
     ],
     "rules": {
       semi: [2, "always"]
+    }
+    "env": {
+        "jquery": true
     }
 };
