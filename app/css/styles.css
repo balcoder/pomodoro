@@ -1,25 +1,31 @@
-html, body{
+html,
+body {
   height: 100%;
   margin: 0;
 }
+
 #wrapper {
   min-height: 100%;
   padding: 50px 0;
-  background: linear-gradient(45deg, #E0E2E5, #919397);
+  background: linear-gradient(45deg, #e0e2e5, #919397);
 }
+
 .main-center {
   min-width: 320px;
+  max-width: 740px;
   padding: 20px;
-  background: linear-gradient(180deg, #8e9095, #2A2B2D);
+  background: linear-gradient(180deg, #8e9095, #2a2b2d);
   color: #fff;
-  border: 1px solid #BFBFBF;
+  border: 1px solid #bfbfbf;
   border-radius: 25px;
   box-shadow: 3px 3px 0px rgba(0, 43, 56, 0.3);
 }
+
 .adj-times {
   margin: 25px 15px;
   font-size: 2.5em;
 }
+
 #lable {
   border-radius: 25px;
   border-style: groove;
@@ -27,6 +33,7 @@ html, body{
   background: #6d6f74;
   padding: 2px;
 }
+
 #current-time {
   margin: 15px;
   background: #4d4d4d;
@@ -34,25 +41,30 @@ html, body{
   padding: 2px;
   font-size: 2.5em;
 }
+
 #progress {
   margin: auto;
 }
+
 .small-time-box {
   box-shadow: 1px 1px 5px #333333 inset;
   background: #4d4d4d;
   padding: 5px;
 }
+
 #start {
   margin-top: 100px;
 }
+
 .adj-button {
-  margin: 10px;
+  margin: 15px;
   border-radius: 15px;
-  background: linear-gradient(180deg, #88BA00, #539000);
+  background: linear-gradient(180deg, #88ba00, #539000);
   padding: 10px;
   font-size: 2.5em;
   border-style: groove;
 }
+
 #myProgress {
   width: 100%;
   background-color: #ddd;
@@ -61,8 +73,9 @@ html, body{
 #myBar {
   width: 1%;
   height: 30px;
-  background-color: #4CAF50;
+  background-color: #4caf50;
 }
+
 .button {
   padding: 15px 25px;
   font-size: 24px;
@@ -75,35 +88,40 @@ html, body{
   box-shadow: 0 2px #999;
   border-style: groove;
 }
+
 .button-plus {
   color: #fff;
-  background-color: #4CAF50;
+  background-color: #4caf50;
 }
+
 .button-minus {
   color: #fff;
   background-color: #d71919;
 }
+
 .button-minus:hover {
   background-color: #b71515;
 }
 
 .button-plus:hover {
-  background-color: #3e8e41
+  background-color: #3e8e41;
 }
+
 .button:active {
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+
 @media only screen and (max-width: 700px) {
   .button {
     padding: 5px 15px;
     font-size: 16px;
     border-radius: 5px;
+  }
 
-    }
-    .adj-times {
-      margin: 25px 0px;
-      font-size: 1em;
-    }
+  .adj-times {
+    margin: 25px 0px;
+    font-size: 1em;
+  }
 }
