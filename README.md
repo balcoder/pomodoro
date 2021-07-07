@@ -2,9 +2,12 @@
 
 ### For the FreeCodeCamp project
 
-A collection of packages that build a website using `npm and gulp scripts`.
+Built with my gulp 5 build tool that uses collection of packages that build a website using `npm and gulp scripts`.
+
+## Contents
 
 - [NPM Packages used](#packages-used)
+  [Building and running the App](#running-the-app)
 - [Running tasks individually](#running-tasks-individually)
 - [Development](#development)
 - [Production](#production)
